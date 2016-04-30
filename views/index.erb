@@ -2,11 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Movie Finder</title>
   </head>
   <body>
 
+    <form>
+      <input type="search" name="title">
+    </form>
 
+    <h1>Movie Finder Search Results</h1>
+
+    <h2><%= @movie.title %></h2>
+
+    <p><%= @movie.plot %></p>
 
   </body>
 </html>
